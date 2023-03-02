@@ -17,13 +17,11 @@ public class B82 {
             System.out.println("So lon nhat la " + a);
         }
         else {
-            if(b>a&&b>c){
-                System.out.println("so lon nhat la "+b);
-            }
-            else {
-                System.out.println("So lon nhat la "+c);
+            if (b > a && b > c) {
+                System.out.println("so lon nhat la " + b);
+            } else {
+                System.out.println("So lon nhat la " + c);
             }
         }
-        //le
     }
 }
