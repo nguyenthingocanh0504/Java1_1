@@ -22,6 +22,11 @@ public class ArrayExample2 {
         for(int i=0;i<n;i++){
             arr1[i]=random.nextInt(1000);
         }
+        //in ra mang vua tao
+        //foreach
+        for(int value: arr1){
+            System.out.printf(value+"\t");
+        }
 
         for(int i=0;i<n;i++){
             System.out.printf(arr1[i]+"\t");
