@@ -25,9 +25,8 @@ public class Example3_while {
         System.out.println("Nhap n= ");
         int x=sc.nextInt();
         while(x<=10){
-            int i=x;
-            System.out.print(i+"\t");
-            i++;
+            System.out.print(x+"\t");
+            x++;
         }
     }
 }
