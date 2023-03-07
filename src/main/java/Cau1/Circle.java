@@ -8,7 +8,7 @@ public class Circle {
 
     public Circle(double radius) {
         if (radius<=0){
-            throw new RuntimeException("error");
+            throw new RuntimeException("Error");
         }else {
             this.radius = radius;
         }
